@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#nav {
+    display: flex;
+    height: 17vh;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#left-nav {
+    display: flex;
+    width: 40vw;
+}
+
+#right-nav {
+    display: flex;
+    width: 30vw;
+    margin-left: 30vw;
+}
+
+#image-header {
+    margin-left: 35px;
+    margin-top: 6px;
+}
+
+#left-list {
+    list-style: none;
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 6px;
+}
+
+#right-list {
+    list-style: none;
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#account {
+    margin-bottom: 2px;
+}
+
+.nav-hover:hover {
+    color: green;
+    cursor: pointer;
+}
+
+#cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 125px;
+}
+
+#main {
+    background-color: rgba(245, 245, 245, 0.518);
+    width: 100%;
+}
+
+#best-quality-products {
+    display: flex;
+    padding-top: 20vh;
+    padding-left: 8vh;
+}
+
+#add-quality-product {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 15px;
+}
+
+.fontWeight {
+    font-weight: bold;
+    font-size: large;
+}
+
+.join {
+    font-size: larger;
+}
+
+.shopNow {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #71AA34;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopNow:hover {
+    background-color: #71aa34c7;
+}
+
+#section {
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.section-inner {
+    height: 150px;
+    width: 300px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    color: #8bc34a;
+}
+
+.fontSize {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fontSize3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bsp-section {
+    margin-top: 100px;
+    background-color: white;
+}
+
+#headBSP {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#BSP-products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.BSP-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vege1 {
+    height: 370px;
+    width: 366px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 3%;
+}
+
+#vegetables {
+    background-color: rgba(245, 245, 245, 0.918);
+    margin-top: 100px;
+    height: 90vh;
+}
+
+#vege-items {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#leaf-img {
+    position: relative;
+}
+
+#up {
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    top: 0%;
+}
+
+#down {
+    position: absolute;
+    top: -30px;
+    left: 43%;
+}
+
+#Fruit {
+    background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product11-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: center;
+}
+
+#veg {
+    background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product13-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: center;
+}
+
+#organic {
+    background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product17-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: center;
+}
+
+#discount {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+
+#try {
+    background-color: rgba(245, 245, 245, 0.918);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trending-section {
+    margin-top: 10%;
+}
+
+#customer-section {
+    margin-top: 10%;
+    position: relative;
+    /* background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/logo-leaf2-free-img.png);
+    background-repeat: no-repeat;
+    background-size: 37% auto;
+    background-position: top left;*/
+}
+
+#review-customer {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 20vw;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    margin-top: 4.9%;
+}
+
+#person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#review {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.special {
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    background-image: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/sydney-rae-668606-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.special::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.special-font {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.special:hover::before{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#brands{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.918);
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    background-color: #001524;
+    color: whitesmoke;
+}
+
+#store{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    color: grey;
+}
+
+.hoverOn:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#quick-site{
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;   
+}
+
+#download{
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+#quick{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 43vh;
+}
+
+#site{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+#downloadApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 28vh;
+}
+
+#quickLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+#green{
+    color: #71AA34;
+}
+
+#app{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact{
+    height: 10vh;
+    background-color: #001524;
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+}
+
+#social-media{
+    position: relative;
+    left: 75%;
+    display: flex;
+    column-gap: 20px;
+}
+
+#app:hover{
+    cursor: pointer;
+}
