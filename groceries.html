@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries Archives - Organic Store</title>
+    <!-- Favicon -->
+    <link rel="icon"
+        href="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/organic-favicon-free-img.png"
+        sizes="32X32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+    <!-- Font awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- It's a container for whole things -->
+    <div id="container">
+        <!-- Navigation Bar -->
+        <div id="nav">
+            <!-- Left Navigation Part -->
+            <div id="left-nav">
+                <a href="http://127.0.0.1:5500/index.html#">
+                    <img width="150px" height="90px" id="image-header" class="nav-hover"
+                        src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/organic-store-logo5.svg"
+                        alt="icon">
+                </a>
+                <div id="left-list">
+                    <div class="nav-hover">Everything</div>
+                    <div class="nav-hover">Groceries</div>
+                    <div class="nav-hover">Juice </div>
+                </div>
+            </div>
+            <!-- Right Navigation Part -->
+            <div id="right-nav">
+                <div id="right-list">
+                    <div> <a href="About.html" class="nav-hover link">About</a></div>
+                    <div> <a href="contact.html" class="nav-hover link">Contact</a></div>
+                    <div id="cart">
+                        <div style="color: rgb(28, 128, 0);" class="nav-hover">£0.00</div>
+
+                        <i class="fa fa-shopping-basket color" aria-hidden="true"></i>
+                        <img class="nav-hover" src="https://www.svgrepo.com/show/454078/account.svg" alt="account"
+                            height="20px" width="20px">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Groceries item -->
+        <div id="groceries">
+            <div id="groceriesSearchArea">
+                <div id="search">
+                    <input id="searchBox" type="search" placeholder="Search Products..." id="searchBorder">
+                    <div class="searchIcon"><i class="fa fa-search" aria-hidden="true"></i></div>
+                </div>
+                <div id="filter">
+                    <div id="filterPrice">
+                        <h1>Filter by price</h1>
+                        <div class="price-filter">
+                            <input type="range" id="priceRange" min="10" max="40" value="10" step="1">
+                            <span id="minPrice">£10</span>
+                            <span id="maxPrice">£40</span>
+                        </div>
+
+                        <div id="filterItems">
+                            <div><span class="color">Groceries </span>(10)</div>
+                            <div><span class="color">Juice </span>(9)</div>
+                        </div>
+                    </div>
+                    <div id="pictures">
+                        <div class="sale">Sale</div>
+                        <div class="pic">
+                            <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/edible-oil-300x300.jpg"
+                                alt="">
+                            <p class="color">Natural Extracted Edible Oil</p>
+                            <p><strike style="color: gray;">£34.00</strike> £25.00</p>
+                        </div>
+
+                        <div class="pic">
+                            <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/sanitizer-300x300.jpg"
+                                alt="">
+                            <p class="color">Hand Sanitizer</p>
+                            <p>£15.00</p>
+                        </div>
+
+                        <div class="pic">
+                            <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/wheat-300x300.jpg"
+                                alt="">
+                            <p class="color">Wheat Form Organic Farms</p>
+                            <p>£34.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="groceriesItems">
+                <div id="groceriesHeader">
+                    <div style="color: gray;"><a href="index.html" class="link" style="color: gray;">Home</a> /
+                        Groceries</div>
+                    <div style="font-size: 7vh;;" class="color">Groceries</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugiat tempore in ad! Deserunt
+                        perspiciatis, est explicabo facilis odio consectetur tenetur repellat! Praesentium alias,
+                        officia
+                        minus eius quos sint expedita nulla corrupti, adipisci asperiores corporis ad! Accusantium, odio
+                        corporis? Ea repellendus amet architecto provident suscipit harum perferendis incidunt, maiores
+                        quibusdam.</p>
+                </div>
+                <div id="filtering">
+                    <div>Showing 1-9 of 10 results</div>
+                    <div>
+                        <select id="dropdown">
+                            <option value="option1">Default Sorting</option>
+                            <option value="option2">Sort by Popularity</option>
+                            <option value="option3">Sort by latest</option>
+                            <option value="option4">Sort by average rating</option>
+                            <option value="option5">Sorty by price:low to high</option>
+                            <option value="option6">Sorty by price:high to low</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="picsGroceries">
+                    <div>
+                        <div class="withoutSale"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/coffee-asorted-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Assorted Coffee</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div>£35.00</div>
+                    </div>
+
+                    <div class="saleWala">
+                        <div class="saleMilega"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/cashew-butter-500-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Cashew Butter</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div><strike style="color: gray;">£35.00</strike> £25.00</div>
+                    </div>
+
+                    <div class="saleWala">
+                        <div class="saleMilega"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/diabetic-cookies-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Diabetic Cookies</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div><strike style="color: gray;">£35.00</strike> £25.00</div>
+                    </div>
+
+                    <div>
+                        <div class="withoutSale"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/organic-honey-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Fresh Organic Honey</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div>£34.00</div>
+                    </div>
+
+                    <div>
+                        <div class="withoutSale"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/sanitizer-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Hand Sanitizer</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div>£15.00</div>
+                    </div>
+
+                    <div>
+                        <div class="withoutSale"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/red-chillies-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Handpicked Red Chillies</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div>£19.00</div>
+                    </div>
+
+                    <div class="saleWala">
+                        <div class="saleMilega"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/edible-oil-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Natural Extracted Edible Oil</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div><strike style="color: gray;">£35.00</strike> £25.00</div>
+                    </div>
+
+                    <div>
+                        <div class="withoutSale"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/face-wash-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Organic Face Scrub</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div>£35.00</div>
+                    </div>
+
+                    <div>
+                        <div class="withoutSale"></div>
+                        <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/pulses-300x300.jpg"
+                            alt="pic">
+                        <div>Groceries</div>
+                        <div class="fontSize3">Pulses From Organic Farm</div>
+                        <div class="star">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div>£15.00</div>
+                    </div>
+                </div>
+
+                <div id="nextPage">
+                    <div class="page1">1</div>
+                    <a href="groceriesPage2.html" class="link"><div class="Page2">2</div></a>
+                    <a href="groceriesPage2.html" class="link"><div class="Page3"><i class="fa fa-arrow-right"></i></div></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Company Contact Details and Site links -->
+        <div id="footer">
+            <div id="store">
+                <div>
+                    <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/07/organic-store-white-logo.png"
+                        alt="">
+                </div>
+                <div>
+                    <i>Maecenas mi justo, interdum at consectetur vel,<br> tristique et arcu. Ut quis eros blandit,
+                        ultrices diam in,<br> elementum ex. Suspendisse quis faucibus urna.<br> Suspendisse
+                        pellentesque.</i>
+                </div>
+            </div>
+            <div id="quick-site">
+                <div id="quick">
+                    <div class="fontSize">Quick Links</div>
+                    <div style="color: gray;">
+                        <div class="hoverOn">About</div>
+                        <div class="hoverOn">Cart</div>
+                        <div class="hoverOn">Chekout</div>
+                        <div class="hoverOn">Contact</div>
+                        <div class="hoverOn">Home</div>
+                        <div class="hoverOn">My account</div>
+                        <div class="hoverOn">Shop</div>
+                    </div>
+                </div>
+                <div id="site">
+                    <div class="fontSize">Site Links</div>
+                    <div style="color: gray;">
+                        <div class="hoverOn">Privacy Policy</div>
+                        <div class="hoverOn">Shipping Details</div>
+                        <div class="hoverOn">Offer Coupons</div>
+                        <div class="hoverOn">Terms & Conditions</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="download">
+                <div id="downloadApp">
+                    <div class="fontSize">Download Our Mobile App</div>
+                    <div style="color: gray;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam
+                        gravida
+                        sollicitudin. Praesent porta enim mi, non tincidunt libero interdum sit amet.</div>
+                </div>
+                <div id="quickLinks">
+                    <div class="fontSize">Quick Links</div>
+                    <div id="green">
+                        <div class="hoverOn">Know More About Us</div>
+                        <div class="hoverOn">Visit Store</div>
+                        <div class="hoverOn">Let's Connect</div>
+                        <div class="hoverOn">Locate Stores</div>
+                    </div>
+                </div>
+                <div id="app">
+                    <div>
+                        <img height="40" width="150"
+                            src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/play-store.png"
+                            alt="">
+                    </div>
+                    <div>
+                        <img height="40" width="150"
+                            src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/app-store.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Social Media Links -->
+        <div id="contact">
+            <div>Copyright © 2023| Organic Store</div>
+            <div id="social-media">
+                <div><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
+                <div><i class="fa fa-twitter-square" aria-hidden="true"></i></div>
+                <div><i class="fa fa-instagram" aria-hidden="true"></i> </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,256 @@
+#groceries {
+    display: flex;
+    background-color: rgba(245, 245, 245, 0.518);
+}
+
+#groceriesSearchArea {
+    width: 30%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+
+
+.searchIcon {
+    padding-top: 2%;
+    border-radius: 5%;
+    font-size: 25px;
+    height: 42px;
+    background-color: #71AA34;
+    color: white;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#groceriesSearchArea {
+    width: 25%;
+}
+
+#search {
+    display: flex;
+    gap: 2%;
+}
+
+#searchBox {
+    outline: none;
+}
+
+#searchBorder {
+    width: 245px;
+    height: 42px;
+    padding: 2%;
+}
+
+#filter {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+#filterPrice {
+    height: 15%;
+    font-size: large;
+}
+
+
+.price1 {
+    border: 1px solid gray;
+    padding: 2%;
+    border-radius: 1%;
+}
+
+#filterItems {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    font-size: larger;
+}
+
+.sale {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #71AA34;
+    margin-left: 80%;
+    z-index: 5;
+    position: relative;
+    top: 3.5%;
+}
+
+#groceriesItems {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    border-left: 1px solid #dddddd;
+}
+
+.picsGroceries {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 3.3%;
+    width: 100%;
+    height: 1300px;
+    margin-top: 5%;
+}
+
+.picsGroceries div:not(div.star) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pictures {
+    margin-top: 30%;
+    height: 200vh;
+    width: 120%;
+}
+
+#filtering {
+    display: flex;
+    gap: 60%;
+    margin-top: 2%;
+}
+
+#nextPage {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 50px;
+    display: flex;
+    gap: 2%;
+}
+
+#groceriesHeader {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    row-gap: 5vh;
+}
+
+.page {
+    border: 1px solid green;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    border-radius: 5%;
+}
+
+#nav {
+    background-color: white;
+}
+
+
+#groceriesSearchArea img {
+    height: 250px;
+    width: 250px;
+}
+
+#groceriesItems img {
+    height: 250px;
+    width: 250px;
+}
+
+select {
+    border: none;
+    outline: none;
+    background-color: rgba(245, 245, 245, 0.518);
+}
+
+select:hover {
+    border: 1px dashed black;
+}
+
+.page1
+{
+    width: 5%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5%;
+    border: 1px solid #71AA34;
+    background-color: #71AA34;
+}
+
+.Page2,.Page3,.pg2{
+    border: 1px solid #71AA34;
+    width: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #71AA34;
+}
+
+.pg2{
+    background-color: #71AA34;
+    color: white;
+}
+
+
+.saleWala::before {
+    content: "Sale";
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    top: 7%;
+    left: 42%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #71AA34;
+}
+
+.withoutSale {
+    height: 5vh;
+}
+
+.price-filter {
+    width: 80%;
+    margin-top: 3%;
+}
+
+input[type="range"] {
+    width: 100%;
+  }
+
+#minPrice,
+#maxPrice {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    left: 40%;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+#GroceriesPage2{
+    display: block;
+    height: 400px;
+    float: left;
+}
+
+.page1:hover,.Page2:hover,.Page3:hover,.pg1:hover,.pg2:hover,.pg3:hover{
+    background-color: #71AA34;
+    color: white;
+}
